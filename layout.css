@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%; /* 16px ' 62,5% =10px  
+   --> käytä fontin muuttamiseen bodyn sisällä  
+   yksikköä rem */
+}
+body {
+  font-family: "Comic Neue", cursive;
+
+  margin: 1rem;
+}
+h1,
+p,
+figure {
+  margin-block-end: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+p {
+  font-size: 2.6rem;
+}
+figure {
+  display: block;
+}
+figure img {
+  max-width: 100%;
+}
